@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Photography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .main-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .contact-info {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Real Estate Photography</h1>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <div>
+                <h2>Professional Real Estate Photography</h2>
+                <p>Enhance your property listings with stunning photographs that capture the beauty and unique features of each home.</p>
+                <p>Our team of experienced photographers specializes in real estate photography, ensuring that your listings stand out from the competition.</p>
+            </div>
+            <img src="real-estate-photo.jpg" alt="Real Estate Photography">
+        </div>
+    </div>
+    <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>Email: info@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </div>
+</body>
+</html>
